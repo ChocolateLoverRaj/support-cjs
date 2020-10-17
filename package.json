@@ -1,0 +1,39 @@
+{
+  "name": "support-cjs",
+  "version": "1.0.0",
+  "description": "Npm package for supporting CommonJs for packages written in ESModule syntax.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChocolateLoverRaj/support-cjs.git"
+  },
+  "keywords": [
+    "support",
+    "cjs",
+    "commonjs",
+    "import",
+    "esm",
+    "require",
+    "babel",
+    "transform",
+    "convert",
+    "build",
+    "modules",
+    "esmodules",
+    "cli"
+  ],
+  "author": "Rajas Paranjpe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChocolateLoverRaj/support-cjs/issues"
+  },
+  "homepage": "https://github.com/ChocolateLoverRaj/support-cjs#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "babel-plugin-list-imports": "^1.0.1"
+  }
+}
